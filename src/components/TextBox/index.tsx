@@ -1,16 +1,17 @@
 import React from 'react';
 
-import { Container, TextInput } from './styles';
+import { Container, Form, Box } from './styles';
 
 const TextBox: React.FC = () => {
     return (
         <Container>
-        <form>
-                <TextInput>
+        <Form>
+                <Box>
             <input placeholder="WhatsApp?" />
-          </TextInput>
+
             <button>Text</button>
-            </form>
+          </Box>
+            </Form>
       </Container>
     );
 };
